@@ -1,5 +1,5 @@
-import { HomePage } from "../../../support/pages/home-page";
-import { StorePage } from "../../../support/pages/store-page";
+import { HomePage } from "../../support/pages/home-page";
+import { StorePage } from "../../support/pages/store-page";
 
 describe("Home Page", () => {
   let homePage: HomePage;
@@ -60,5 +60,25 @@ describe("Home Page", () => {
     cy.go("back");
     homePage.clickPopupAndAlertsButton();
     cy.url().should("contain", /Popup-Alerts/);
+
+    // -- navigate to iframe page
+    cy.go("back");
+    homePage.clickIFrameButton();
+    cy.url().should("contain", /IFrame/);
+
+    // -- navigate to dropdown, checkboxes and radio buttons
+    cy.go("back");
+    homePage.clickDropDownEtcButton();
+    cy.url().should("contain", /Dropdown-Checkboxes-RadioButtons/);
+
+    // -- navigate to actions
+    cy.go("back");
+    homePage.clickActionButton();
+    cy.url().should("contain", /Actions/);
+
+    // -- navigate to data table page
+    cy.go("back");
+    homePage.clickDataTableButton();
+    cy.url().should("contain", /Data-Table/);
   });
 });

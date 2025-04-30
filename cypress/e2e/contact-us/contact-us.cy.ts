@@ -6,14 +6,10 @@ describe("Test Contact Us form via WebDriverUni", () => {
   let homePage: HomePage;
   let contactUsPage: ContactUsPage;
 
-  const contactData: ContactData = {
-    firstName: "Hansi",
-    lastName: "Hampelmann",
-    email: "hansi@horst.de",
-    comment: "ich bin der Hansi!",
-  };
+  let contactData: ContactData;
 
   before(() => {
+    cy.fixture("contact.json").then((contact) => (contactData = contact));
     homePage = new HomePage();
   });
 
@@ -34,6 +30,7 @@ describe("Test Contact Us form via WebDriverUni", () => {
 
   it("Should be able to successfully submit the Contact Us form", () => {
     contactUsPage.fillOutForm(contactData);
+    // contactUsPage.clickSubmitButton();
     contactUsPage.submitForm();
     cy.url().should("match", /contact-form-thank-you.html$/);
     contactUsPage.validateSuccessfulSubmit();
@@ -52,7 +49,5 @@ describe("Test Contact Us form via WebDriverUni", () => {
     contactUsPage.validateFormIsEmpty();
   });
 
-  it("Should log all todos on Todo List page", () => {
-
-  });
+  it("Should log all todos on Todo List page", () => {});
 });

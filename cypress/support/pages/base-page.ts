@@ -7,6 +7,9 @@ export abstract class BasePage implements Page {
   }
 
   clickNavigationButton(locator: string) {
-    cy.get(locator).invoke("removeAttr", "target").click({ force: true });
+    cy.get(locator)
+      .scrollIntoView()
+      .invoke("removeAttr", "target")
+      .click({ force: true });
   }
 }
