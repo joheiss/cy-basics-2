@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Cypress Tests" tests="5" failures="0" skipped="0" errors="0" timestamp="Thu, 08 May 2025 08:25:19 GMT" time="5.696">
+  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="5.697" timestamp="Thu, 08 May 2025 08:25:13 GMT" file="cypress/e2e/examples/2-advanced-examples/misc.cy.js">
+    <system-out/>
+  </testsuite>
+  <testsuite name="Misc" tests="5" failures="0" skipped="0" errors="0" time="5.697" timestamp="Thu, 08 May 2025 08:25:13 GMT" file="cypress/e2e/examples/2-advanced-examples/misc.cy.js">
+    <testcase name="cy.exec() - execute a system command" classname="Misc" time="3.147"/>
+    <testcase name="cy.focused() - get the DOM element that has focus" classname="Misc" time="0.235"/>
+    <testcase name="cy.wrap() - wrap an object" classname="Misc" time="0.064"/>
+    <testcase name="Cypress.Screenshot -- cy.screenshot() - take a screenshot" classname="Misc" time="1.4"/>
+    <testcase name="Cypress.Screenshot -- Cypress.Screenshot.defaults() - change default config of screenshots" classname="Misc" time="0.061"/>
+    <system-out/>
+  </testsuite>
+</testsuites>

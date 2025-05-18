@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Cypress Tests" tests="6" failures="0" skipped="0" errors="0" timestamp="Thu, 08 May 2025 08:23:29 GMT" time="0.118">
+  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="0.119" timestamp="Thu, 08 May 2025 08:23:29 GMT" file="cypress/e2e/hooks.cy.ts">
+    <system-out/>
+  </testsuite>
+  <testsuite name="Outer suite" tests="6" failures="0" skipped="0" errors="0" time="0.119" timestamp="Thu, 08 May 2025 08:23:29 GMT" file="cypress/e2e/hooks.cy.ts">
+    <testcase name="Test 1 in outer suite" classname="Outer suite" time="0.014"/>
+    <testcase name="Test 2 in outer suite" classname="Outer suite" time="0.007"/>
+    <testcase name="Inner suite #1 -- Test 1.1 in outer suite" classname="Outer suite" time="0.006"/>
+    <testcase name="Inner suite #1 -- Test 1.2 in outer suite" classname="Outer suite" time="0.005"/>
+    <testcase name="Inner suite #2 -- Test 2.1 in outer suite" classname="Outer suite" time="0.005"/>
+    <testcase name="Inner suite #2 -- Test 2.2 in outer suite" classname="Outer suite" time="0.006"/>
+    <system-out/>
+  </testsuite>
+</testsuites>

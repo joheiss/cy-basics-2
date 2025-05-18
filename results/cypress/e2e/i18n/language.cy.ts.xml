@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Cypress Tests" tests="6" failures="0" skipped="5" errors="0" timestamp="Thu, 08 May 2025 08:26:15 GMT" time="0.019">
+  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="0.019" timestamp="Thu, 08 May 2025 08:26:15 GMT" file="cypress/e2e/i18n/language.cy.ts">
+    <system-out/>
+  </testsuite>
+  <testsuite name="Testing browser language settings" tests="6" failures="0" skipped="5" errors="0" time="0.019" timestamp="Thu, 08 May 2025 08:26:15 GMT" file="cypress/e2e/i18n/language.cy.ts">
+    <testcase name="should set the expected locale and timezone" classname="Testing browser language settings" time="NaN">
+      <skipped/>
+    </testcase>
+    <testcase name="should set the expected locale and timezone" classname="Testing browser language settings" time="NaN">
+      <skipped/>
+    </testcase>
+    <testcase name="should set the expected locale and timezone" classname="Testing browser language settings" time="NaN">
+      <skipped/>
+    </testcase>
+    <testcase name="when browser language is English" classname="Testing browser language settings" time="NaN">
+      <skipped/>
+    </testcase>
+    <testcase name="should set the expected locale and timezone" classname="Testing browser language settings" time="NaN">
+      <skipped/>
+    </testcase>
+    <testcase name="Should use the correct locale" classname="Testing browser language settings" time="0.014"/>
+    <system-out/>
+  </testsuite>
+</testsuites>

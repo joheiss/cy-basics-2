@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Cypress Tests" tests="14" failures="0" skipped="0" errors="0" timestamp="Thu, 08 May 2025 08:24:47 GMT" time="12.394">
+  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="12.394" timestamp="Thu, 08 May 2025 08:24:35 GMT" file="cypress/e2e/examples/2-advanced-examples/actions.cy.js">
+    <system-out/>
+  </testsuite>
+  <testsuite name="Actions" tests="14" failures="0" skipped="0" errors="0" time="12.394" timestamp="Thu, 08 May 2025 08:24:35 GMT" file="cypress/e2e/examples/2-advanced-examples/actions.cy.js">
+    <testcase name=".type() - type into a DOM element" classname="Actions" time="3.625"/>
+    <testcase name=".focus() - focus on a DOM element" classname="Actions" time="0.138"/>
+    <testcase name=".blur() - blur off a DOM element" classname="Actions" time="0.349"/>
+    <testcase name=".clear() - clears an input or textarea element" classname="Actions" time="0.438"/>
+    <testcase name=".submit() - submit a form" classname="Actions" time="0.358"/>
+    <testcase name=".click() - click on a DOM element" classname="Actions" time="1.798"/>
+    <testcase name=".dblclick() - double click on a DOM element" classname="Actions" time="0.17"/>
+    <testcase name=".rightclick() - right click on a DOM element" classname="Actions" time="0.149"/>
+    <testcase name=".check() - check a checkbox or radio element" classname="Actions" time="0.696"/>
+    <testcase name=".uncheck() - uncheck a checkbox element" classname="Actions" time="0.72"/>
+    <testcase name=".select() - select an option in a &lt;select> element" classname="Actions" time="0.812"/>
+    <testcase name=".scrollIntoView() - scroll an element into view" classname="Actions" time="0.078"/>
+    <testcase name=".trigger() - trigger an event on a DOM element" classname="Actions" time="0.098"/>
+    <testcase name="cy.scrollTo() - scroll the window or element to a position" classname="Actions" time="2.078"/>
+    <system-out/>
+  </testsuite>
+</testsuites>

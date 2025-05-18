@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Cypress Tests" tests="3" failures="0" skipped="0" errors="0" timestamp="Thu, 08 May 2025 08:24:08 GMT" time="1.441">
+  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="1.441" timestamp="Thu, 08 May 2025 08:24:06 GMT" file="cypress/e2e/alerts/alerts.cy.ts">
+    <system-out/>
+  </testsuite>
+  <testsuite name="Test Alerts" tests="3" failures="0" skipped="0" errors="0" time="1.441" timestamp="Thu, 08 May 2025 08:24:06 GMT" file="cypress/e2e/alerts/alerts.cy.ts">
+    <testcase name="Should show an alert box" classname="Test Alerts" time="0.516"/>
+    <testcase name="Should show a confirm box and confirm it with OK" classname="Test Alerts" time="0.146"/>
+    <testcase name="Should show a confirm box and confirm it with CANCEL" classname="Test Alerts" time="0.139"/>
+    <system-out/>
+  </testsuite>
+</testsuites>

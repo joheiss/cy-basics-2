@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Cypress Tests" tests="6" failures="0" skipped="0" errors="0" timestamp="Thu, 08 May 2025 08:25:28 GMT" time="3.331">
+  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="3.331" timestamp="Thu, 08 May 2025 08:25:24 GMT" file="cypress/e2e/examples/2-advanced-examples/network_requests.cy.js">
+    <system-out/>
+  </testsuite>
+  <testsuite name="Network Requests" tests="6" failures="0" skipped="0" errors="0" time="3.331" timestamp="Thu, 08 May 2025 08:25:24 GMT" file="cypress/e2e/examples/2-advanced-examples/network_requests.cy.js">
+    <testcase name="cy.request() - make an XHR request" classname="Network Requests" time="0.573"/>
+    <testcase name="cy.request() - verify response using BDD syntax" classname="Network Requests" time="0.28"/>
+    <testcase name="cy.request() with query parameters" classname="Network Requests" time="0.244"/>
+    <testcase name="cy.request() - pass result to the second request" classname="Network Requests" time="0.435"/>
+    <testcase name="cy.request() - save response in the shared test context" classname="Network Requests" time="0.386"/>
+    <testcase name="cy.intercept() - route responses to matching requests" classname="Network Requests" time="0.565"/>
+    <system-out/>
+  </testsuite>
+</testsuites>

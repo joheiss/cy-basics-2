@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Cypress Tests" tests="1" failures="0" skipped="0" errors="0" timestamp="Thu, 08 May 2025 08:24:29 GMT" time="3.103">
+  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="3.103" timestamp="Thu, 08 May 2025 08:24:25 GMT" file="cypress/e2e/store/store.cy.ts">
+    <system-out/>
+  </testsuite>
+  <testsuite name="Test Store Page" tests="1" failures="0" skipped="0" errors="0" time="3.103" timestamp="Thu, 08 May 2025 08:24:25 GMT" file="cypress/e2e/store/store.cy.ts">
+    <testcase name="Should show store page" classname="Test Store Page" time="1.552"/>
+    <system-out/>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Cypress Tests" tests="6" failures="0" skipped="0" errors="0" timestamp="Thu, 08 May 2025 08:24:33 GMT" time="2.261">
+  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="2.262" timestamp="Thu, 08 May 2025 08:24:31 GMT" file="cypress/e2e/examples/1-getting-started/todo.cy.js">
+    <system-out/>
+  </testsuite>
+  <testsuite name="example to-do app" tests="6" failures="0" skipped="0" errors="0" time="2.262" timestamp="Thu, 08 May 2025 08:24:31 GMT" file="cypress/e2e/examples/1-getting-started/todo.cy.js">
+    <testcase name="displays two todo items by default" classname="example to-do app" time="0.263"/>
+    <testcase name="can add new todo items" classname="example to-do app" time="0.347"/>
+    <testcase name="can check off an item as completed" classname="example to-do app" time="0.136"/>
+    <testcase name="with a checked task -- can filter for uncompleted tasks" classname="example to-do app" time="0.218"/>
+    <testcase name="with a checked task -- can filter for completed tasks" classname="example to-do app" time="0.22"/>
+    <testcase name="with a checked task -- can delete all completed tasks" classname="example to-do app" time="0.218"/>
+    <system-out/>
+  </testsuite>
+</testsuites>

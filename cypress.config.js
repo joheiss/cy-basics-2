@@ -5,11 +5,19 @@ module.exports = defineConfig({
   reporterOptions: {
     resultFolder: "cypress/results",
   },
-  video: false,
+  video: true,
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here
       require("cypress-xml-reporter/src/plugin")(on);
+      // on("before:browser:launch", (browser, launchOptions) => {
+      //   if (browser.family === "chromium") {
+      //     launchOptions.preferences.default.intl = {
+      //       accept_languages: "en-US",
+      //     };
+      //     return launchOptions;
+      //   }
+      // });
     },
     specPattern: "cypress/e2e/**/*.{js,jsx,ts,tsx,feature}",
   },

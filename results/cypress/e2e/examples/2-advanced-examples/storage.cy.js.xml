@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Cypress Tests" tests="5" failures="0" skipped="0" errors="0" timestamp="Thu, 08 May 2025 08:25:41 GMT" time="1.738">
+  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="1.738" timestamp="Thu, 08 May 2025 08:25:39 GMT" file="cypress/e2e/examples/2-advanced-examples/storage.cy.js">
+    <system-out/>
+  </testsuite>
+  <testsuite name="Local Storage / Session Storage" tests="5" failures="0" skipped="0" errors="0" time="1.738" timestamp="Thu, 08 May 2025 08:25:39 GMT" file="cypress/e2e/examples/2-advanced-examples/storage.cy.js">
+    <testcase name="cy.clearLocalStorage() - clear all data in localStorage for the current origin" classname="Local Storage / Session Storage" time="0.443"/>
+    <testcase name="cy.getAllLocalStorage() - get all data in localStorage for all origins" classname="Local Storage / Session Storage" time="0.15"/>
+    <testcase name="cy.clearAllLocalStorage() - clear all data in localStorage for all origins" classname="Local Storage / Session Storage" time="0.137"/>
+    <testcase name="cy.getAllSessionStorage() - get all data in sessionStorage for all origins" classname="Local Storage / Session Storage" time="0.138"/>
+    <testcase name="cy.clearAllSessionStorage() - clear all data in sessionStorage for all origins" classname="Local Storage / Session Storage" time="0.142"/>
+    <system-out/>
+  </testsuite>
+</testsuites>

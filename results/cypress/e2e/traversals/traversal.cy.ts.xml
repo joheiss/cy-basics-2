@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Cypress Tests" tests="8" failures="0" skipped="0" errors="0" timestamp="Thu, 08 May 2025 08:26:10 GMT" time="2.026">
+  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="2.026" timestamp="Thu, 08 May 2025 08:26:08 GMT" file="cypress/e2e/traversals/traversal.cy.ts">
+    <system-out/>
+  </testsuite>
+  <testsuite name="Test Traversals" tests="8" failures="0" skipped="0" errors="0" time="2.026" timestamp="Thu, 08 May 2025 08:26:08 GMT" file="cypress/e2e/traversals/traversal.cy.ts">
+    <testcase name="Should navigate to data table page - via link" classname="Test Traversals" time="0.541"/>
+    <testcase name="Should get the children of a DOM element" classname="Test Traversals" time="0.079"/>
+    <testcase name="Should get the closest DOM element" classname="Test Traversals" time="0.068"/>
+    <testcase name="Should get a list item by index" classname="Test Traversals" time="0.071"/>
+    <testcase name="Should filter() the active button" classname="Test Traversals" time="0.075"/>
+    <testcase name="Should find() all 7 pagination links" classname="Test Traversals" time="0.15"/>
+    <testcase name="Should get the first() and last() column of a table row" classname="Test Traversals" time="0.082"/>
+    <testcase name="Should get nextAll() siblings of Tea" classname="Test Traversals" time="0.08"/>
+    <system-out/>
+  </testsuite>
+</testsuites>

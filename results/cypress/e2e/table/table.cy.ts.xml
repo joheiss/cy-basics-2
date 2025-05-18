@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Cypress Tests" tests="3" failures="0" skipped="0" errors="0" timestamp="Thu, 08 May 2025 08:26:18 GMT" time="1.344">
+  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="1.344" timestamp="Thu, 08 May 2025 08:26:17 GMT" file="cypress/e2e/table/table.cy.ts">
+    <system-out/>
+  </testsuite>
+  <testsuite name="Test Tables" tests="3" failures="0" skipped="0" errors="0" time="1.344" timestamp="Thu, 08 May 2025 08:26:17 GMT" file="cypress/e2e/table/table.cy.ts">
+    <testcase name="Should navigate to data table page - via link" classname="Test Tables" time="0.469"/>
+    <testcase name="Should log the sum of all ages" classname="Test Tables" time="0.106"/>
+    <testcase name="Should find a users age in the table and verify it" classname="Test Tables" time="0.077"/>
+    <system-out/>
+  </testsuite>
+</testsuites>

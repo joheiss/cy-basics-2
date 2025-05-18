@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Cypress Tests" tests="4" failures="1" skipped="0" errors="0" timestamp="Thu, 08 May 2025 08:24:00 GMT" time="6.622">
+  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="6.623" timestamp="Thu, 08 May 2025 08:23:53 GMT" file="cypress/e2e/date-picker/date-picker.cy.ts">
+    <system-out/>
+  </testsuite>
+  <testsuite name="Test Date Pickers" tests="4" failures="1" skipped="0" errors="0" time="6.623" timestamp="Thu, 08 May 2025 08:23:53 GMT" file="cypress/e2e/date-picker/date-picker.cy.ts">
+    <testcase name="Should navigate to data table page - via link" classname="Test Date Pickers" time="0.467"/>
+    <testcase name="Should be able to select a year in the past" classname="Test Date Pickers" time="0.496"/>
+    <testcase name="Should select a date in the future" classname="Test Date Pickers" time="NaN">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `.none`, but never found it." type="AssertionError">AssertionError: Timed out retrying after 4000ms: Expected to find element: `.none`, but never found it.
+    at Context.eval (webpack://cypress-basics-2/./cypress/support/pages/date-picker-page.ts:112:17)
+    at getRet (https://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:119619:20)
+    at tryCatcher (https://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:1777:23)
+    at Promise.attempt.Promise.try (https://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:4285:29)
+    at Context.thenFn (https://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:119630:66)
+    at Context.then (https://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:119881:21)
+    at wrapped (https://www.webdriveruniversity.com/__cypress/runner/cypress_runner.js:140158:19)</failure>
+      <system-out>[[ATTACHMENT|cypress/screenshots/date-picker/date-picker.cy.ts/Test Date Pickers -- Should select a date in the future (failed).png]]</system-out>
+    </testcase>
+    <testcase name="Should select a date in the past" classname="Test Date Pickers" time="0.68"/>
+    <system-out>[[ATTACHMENT|cypress/videos/date-picker/date-picker.cy.ts.mp4]]</system-out>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Cypress Tests" tests="2" failures="0" skipped="0" errors="0" timestamp="Thu, 08 May 2025 08:26:03 GMT" time="5.371">
+  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="5.371" timestamp="Thu, 08 May 2025 08:25:57 GMT" file="cypress/e2e/examples/2-advanced-examples/waiting.cy.js">
+    <system-out/>
+  </testsuite>
+  <testsuite name="Waiting" tests="2" failures="0" skipped="0" errors="0" time="5.371" timestamp="Thu, 08 May 2025 08:25:57 GMT" file="cypress/e2e/examples/2-advanced-examples/waiting.cy.js">
+    <testcase name="cy.wait() - wait for a specific amount of time" classname="Waiting" time="4.435"/>
+    <testcase name="cy.wait() - wait for a specific route" classname="Waiting" time="0.292"/>
+    <system-out/>
+  </testsuite>
+</testsuites>

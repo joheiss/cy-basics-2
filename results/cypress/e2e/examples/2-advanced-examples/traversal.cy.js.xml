@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Cypress Tests" tests="18" failures="0" skipped="0" errors="0" timestamp="Thu, 08 May 2025 08:25:45 GMT" time="2.639">
+  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="2.639" timestamp="Thu, 08 May 2025 08:25:43 GMT" file="cypress/e2e/examples/2-advanced-examples/traversal.cy.js">
+    <system-out/>
+  </testsuite>
+  <testsuite name="Traversal" tests="18" failures="0" skipped="0" errors="0" time="2.639" timestamp="Thu, 08 May 2025 08:25:43 GMT" file="cypress/e2e/examples/2-advanced-examples/traversal.cy.js">
+    <testcase name=".children() - get child DOM elements" classname="Traversal" time="0.346"/>
+    <testcase name=".closest() - get closest ancestor DOM element" classname="Traversal" time="0.091"/>
+    <testcase name=".eq() - get a DOM element at a specific index" classname="Traversal" time="0.101"/>
+    <testcase name=".filter() - get DOM elements that match the selector" classname="Traversal" time="0.103"/>
+    <testcase name=".find() - get descendant DOM elements of the selector" classname="Traversal" time="0.076"/>
+    <testcase name=".first() - get first DOM element" classname="Traversal" time="0.075"/>
+    <testcase name=".last() - get last DOM element" classname="Traversal" time="0.061"/>
+    <testcase name=".next() - get next sibling DOM element" classname="Traversal" time="0.062"/>
+    <testcase name=".nextAll() - get all next sibling DOM elements" classname="Traversal" time="0.061"/>
+    <testcase name=".nextUntil() - get next sibling DOM elements until next el" classname="Traversal" time="0.069"/>
+    <testcase name=".not() - remove DOM elements from set of DOM elements" classname="Traversal" time="0.059"/>
+    <testcase name=".parent() - get parent DOM element from DOM elements" classname="Traversal" time="0.06"/>
+    <testcase name=".parents() - get parent DOM elements from DOM elements" classname="Traversal" time="0.072"/>
+    <testcase name=".parentsUntil() - get parent DOM elements from DOM elements until el" classname="Traversal" time="0.078"/>
+    <testcase name=".prev() - get previous sibling DOM element" classname="Traversal" time="0.059"/>
+    <testcase name=".prevAll() - get all previous sibling DOM elements" classname="Traversal" time="0.058"/>
+    <testcase name=".prevUntil() - get all previous sibling DOM elements until el" classname="Traversal" time="0.064"/>
+    <testcase name=".siblings() - get all sibling DOM elements" classname="Traversal" time="0.06"/>
+    <system-out/>
+  </testsuite>
+</testsuites>

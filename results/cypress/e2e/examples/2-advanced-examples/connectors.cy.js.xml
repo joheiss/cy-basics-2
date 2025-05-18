@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Cypress Tests" tests="8" failures="0" skipped="0" errors="0" timestamp="Thu, 08 May 2025 08:25:00 GMT" time="1.535">
+  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="1.535" timestamp="Thu, 08 May 2025 08:24:58 GMT" file="cypress/e2e/examples/2-advanced-examples/connectors.cy.js">
+    <system-out/>
+  </testsuite>
+  <testsuite name="Connectors" tests="8" failures="0" skipped="0" errors="0" time="1.535" timestamp="Thu, 08 May 2025 08:24:58 GMT" file="cypress/e2e/examples/2-advanced-examples/connectors.cy.js">
+    <testcase name=".each() - iterate over an array of elements" classname="Connectors" time="0.205"/>
+    <testcase name=".its() - get properties on the current subject" classname="Connectors" time="0.079"/>
+    <testcase name=".invoke() - invoke a function on the current subject" classname="Connectors" time="0.066"/>
+    <testcase name=".spread() - spread an array as individual args to callback function" classname="Connectors" time="0.063"/>
+    <testcase name=".then() -- invokes a callback function with the current subject" classname="Connectors" time="0.065"/>
+    <testcase name=".then() -- yields the returned value to the next command" classname="Connectors" time="0.07"/>
+    <testcase name=".then() -- yields the original subject without return" classname="Connectors" time="0.057"/>
+    <testcase name=".then() -- yields the value yielded by the last Cypress command inside" classname="Connectors" time="0.076"/>
+    <system-out/>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Cypress Tests" tests="2" failures="0" skipped="0" errors="0" timestamp="Thu, 08 May 2025 08:24:50 GMT" time="1.522">
+  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="1.522" timestamp="Thu, 08 May 2025 08:24:49 GMT" file="cypress/e2e/examples/2-advanced-examples/aliasing.cy.js">
+    <system-out/>
+  </testsuite>
+  <testsuite name="Aliasing" tests="2" failures="0" skipped="0" errors="0" time="1.522" timestamp="Thu, 08 May 2025 08:24:49 GMT" file="cypress/e2e/examples/2-advanced-examples/aliasing.cy.js">
+    <testcase name=".as() - alias a DOM element for later use" classname="Aliasing" time="0.286"/>
+    <testcase name=".as() - alias a route for later use" classname="Aliasing" time="0.57"/>
+    <system-out/>
+  </testsuite>
+</testsuites>

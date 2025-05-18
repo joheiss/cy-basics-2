@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<testsuites name="Cypress Tests" tests="1" failures="1" skipped="0" errors="0" timestamp="Fri, 25 Apr 2025 10:51:23 GMT" time="5.896">
-  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="5.896" timestamp="Fri, 25 Apr 2025 10:51:17 GMT" file="cypress/e2e/screenshots.cy.ts">
+<testsuites name="Cypress Tests" tests="2" failures="1" skipped="0" errors="0" timestamp="Thu, 08 May 2025 08:23:37 GMT" time="5.79">
+  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="5.791" timestamp="Thu, 08 May 2025 08:23:31 GMT" file="cypress/e2e/screenshots.cy.ts">
     <system-out/>
   </testsuite>
-  <testsuite name="Test*Screenshots*in*Junit*Reports" tests="1" failures="1" skipped="0" errors="0" time="5.896" timestamp="Fri, 25 Apr 2025 10:51:17 GMT" file="cypress/e2e/screenshots.cy.ts">
+  <testsuite name="Test*Screenshots*in*Junit*Reports" tests="2" failures="1" skipped="0" errors="0" time="5.791" timestamp="Thu, 08 May 2025 08:23:31 GMT" file="cypress/e2e/screenshots.cy.ts">
     <testcase name="Should-link-a-screenshot-as-an-attachment-in-the-XML-file" classname="Test*Screenshots*in*Junit*Reports" time="NaN">
       <failure message="Timed out retrying after 4000ms: expected '&lt;h1>' to have text 'CONTACT NOBODY', but the text was 'CONTACT US'" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<h1>' to have text 'CONTACT NOBODY', but the text was 'CONTACT US'
     at Context.eval (webpack://cypress-basics-2/./cypress/e2e/screenshots.cy.ts:9:29)]]></failure>
       <system-out>[[ATTACHMENT|cypress/screenshots/screenshots.cy.ts/TestScreenshotsinJunitReports -- Should-link-a-screenshot-as-an-attachment-in-the-XML-file (failed).png]]</system-out>
     </testcase>
+    <testcase name="Should return a single message" classname="Test*Screenshots*in*Junit*Reports" time="0.014"/>
     <system-out>[[ATTACHMENT|cypress/videos/screenshots.cy.ts.mp4]]</system-out>
   </testsuite>
 </testsuites>

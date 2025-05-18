@@ -14,4 +14,18 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './commands';
+import "./commands";
+
+Cypress.automation("remote:debugger:protocol", {
+  command: "Emulation.setLocaleOverride",
+  params: {
+    locale: "en-US",
+  },
+}).then(() => {
+  console.log(navigator.languages.toString());
+  const date = new Date();
+  console.log(date.toLocaleDateString());
+  const { locale, timeZone } = new Intl.DateTimeFormat().resolvedOptions();
+
+  console.log(locale, timeZone);
+});

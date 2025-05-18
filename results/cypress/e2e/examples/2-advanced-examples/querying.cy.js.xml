@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Cypress Tests" tests="5" failures="0" skipped="0" errors="0" timestamp="Thu, 08 May 2025 08:25:31 GMT" time="1.695">
+  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="1.695" timestamp="Thu, 08 May 2025 08:25:30 GMT" file="cypress/e2e/examples/2-advanced-examples/querying.cy.js">
+    <system-out/>
+  </testsuite>
+  <testsuite name="Querying" tests="5" failures="0" skipped="0" errors="0" time="1.695" timestamp="Thu, 08 May 2025 08:25:30 GMT" file="cypress/e2e/examples/2-advanced-examples/querying.cy.js">
+    <testcase name="cy.get() - query DOM elements" classname="Querying" time="0.216"/>
+    <testcase name="cy.contains() - query DOM elements with matching content" classname="Querying" time="0.075"/>
+    <testcase name=".within() - query DOM elements within a specific element" classname="Querying" time="0.071"/>
+    <testcase name="cy.root() - query the root DOM element" classname="Querying" time="0.076"/>
+    <testcase name="best practices - selecting elements" classname="Querying" time="0.562"/>
+    <system-out/>
+  </testsuite>
+</testsuites>

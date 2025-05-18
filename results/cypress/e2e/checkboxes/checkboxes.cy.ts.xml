@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Cypress Tests" tests="5" failures="0" skipped="0" errors="0" timestamp="Thu, 08 May 2025 08:24:04 GMT" time="2.458">
+  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="2.458" timestamp="Thu, 08 May 2025 08:24:02 GMT" file="cypress/e2e/checkboxes/checkboxes.cy.ts">
+    <system-out/>
+  </testsuite>
+  <testsuite name="Home Page" tests="5" failures="0" skipped="0" errors="0" time="2.458" timestamp="Thu, 08 May 2025 08:24:02 GMT" file="cypress/e2e/checkboxes/checkboxes.cy.ts">
+    <testcase name="Should navigate to checkbox page - via link" classname="Home Page" time="0.423"/>
+    <testcase name="Should check a given checkbox" classname="Home Page" time="0.304"/>
+    <testcase name="Should check/uncheck a given radio button" classname="Home Page" time="0.529"/>
+    <testcase name="Should find enabled/disabled radio buttons" classname="Home Page" time="0.072"/>
+    <testcase name="Should select a given value from a dropdown list" classname="Home Page" time="0.45"/>
+    <system-out/>
+  </testsuite>
+</testsuites>

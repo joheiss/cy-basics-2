@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Cypress Tests" tests="3" failures="0" skipped="0" errors="0" timestamp="Thu, 08 May 2025 08:26:06 GMT" time="1.065">
+  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="1.065" timestamp="Thu, 08 May 2025 08:26:05 GMT" file="cypress/e2e/examples/2-advanced-examples/window.cy.js">
+    <system-out/>
+  </testsuite>
+  <testsuite name="Window" tests="3" failures="0" skipped="0" errors="0" time="1.065" timestamp="Thu, 08 May 2025 08:26:05 GMT" file="cypress/e2e/examples/2-advanced-examples/window.cy.js">
+    <testcase name="cy.window() - get the global window object" classname="Window" time="0.228"/>
+    <testcase name="cy.document() - get the document object" classname="Window" time="0.057"/>
+    <testcase name="cy.title() - get the title" classname="Window" time="0.056"/>
+    <system-out/>
+  </testsuite>
+</testsuites>

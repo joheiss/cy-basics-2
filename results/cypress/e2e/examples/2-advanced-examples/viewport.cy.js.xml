@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Cypress Tests" tests="1" failures="0" skipped="0" errors="0" timestamp="Thu, 08 May 2025 08:25:56 GMT" time="3.375">
+  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="3.375" timestamp="Thu, 08 May 2025 08:25:52 GMT" file="cypress/e2e/examples/2-advanced-examples/viewport.cy.js">
+    <system-out/>
+  </testsuite>
+  <testsuite name="Viewport" tests="1" failures="0" skipped="0" errors="0" time="3.375" timestamp="Thu, 08 May 2025 08:25:52 GMT" file="cypress/e2e/examples/2-advanced-examples/viewport.cy.js">
+    <testcase name="cy.viewport() - set the viewport size and dimension" classname="Viewport" time="2.744"/>
+    <system-out/>
+  </testsuite>
+</testsuites>

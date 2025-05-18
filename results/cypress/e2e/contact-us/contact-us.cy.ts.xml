@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Cypress Tests" tests="6" failures="0" skipped="0" errors="0" timestamp="Thu, 08 May 2025 08:23:48 GMT" time="4.876">
+  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="4.876" timestamp="Thu, 08 May 2025 08:23:43 GMT" file="cypress/e2e/contact-us/contact-us.cy.ts">
+    <system-out/>
+  </testsuite>
+  <testsuite name="Test Contact Us form via WebDriverUni" tests="6" failures="0" skipped="0" errors="0" time="4.876" timestamp="Thu, 08 May 2025 08:23:43 GMT" file="cypress/e2e/contact-us/contact-us.cy.ts">
+    <testcase name="Should contain a specific set of metadata on the page" classname="Test Contact Us form via WebDriverUni" time="0.407"/>
+    <testcase name="Should contain a specific page title" classname="Test Contact Us form via WebDriverUni" time="0.071"/>
+    <testcase name="Should be able to successfully submit the Contact Us form" classname="Test Contact Us form via WebDriverUni" time="1.545"/>
+    <testcase name="Should not be able to submit the Contact Us form as required fields are missing" classname="Test Contact Us form via WebDriverUni" time="0.906"/>
+    <testcase name="Should reset the form if the RESET button is pressed" classname="Test Contact Us form via WebDriverUni" time="1.163"/>
+    <testcase name="Should log all todos on Todo List page" classname="Test Contact Us form via WebDriverUni" time="0.074"/>
+    <system-out/>
+  </testsuite>
+</testsuites>

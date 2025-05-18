@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Cypress Tests" tests="1" failures="0" skipped="0" errors="0" timestamp="Thu, 08 May 2025 08:24:23 GMT" time="1.49">
+  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="1.49" timestamp="Thu, 08 May 2025 08:24:22 GMT" file="cypress/e2e/iframe/iframe.cy.ts">
+    <system-out/>
+  </testsuite>
+  <testsuite name="Test IFrames" tests="1" failures="0" skipped="0" errors="0" time="1.49" timestamp="Thu, 08 May 2025 08:24:22 GMT" file="cypress/e2e/iframe/iframe.cy.ts">
+    <testcase name="Should handle an iframe element" classname="Test IFrames" time="0.844"/>
+    <system-out/>
+  </testsuite>
+</testsuites>

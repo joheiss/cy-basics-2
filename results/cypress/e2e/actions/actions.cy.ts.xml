@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Cypress Tests" tests="4" failures="0" skipped="0" errors="0" timestamp="Thu, 08 May 2025 08:23:41 GMT" time="1.78">
+  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="1.78" timestamp="Thu, 08 May 2025 08:23:39 GMT" file="cypress/e2e/actions/actions.cy.ts">
+    <system-out/>
+  </testsuite>
+  <testsuite name="Test Autocomplete Textfield" tests="4" failures="0" skipped="0" errors="0" time="1.78" timestamp="Thu, 08 May 2025 08:23:39 GMT" file="cypress/e2e/actions/actions.cy.ts">
+    <testcase name="Should navigate to action page - via link" classname="Test Autocomplete Textfield" time="0.582"/>
+    <testcase name="Should be able to drag a dragable element" classname="Test Autocomplete Textfield" time="0.194"/>
+    <testcase name="Should double-click a box" classname="Test Autocomplete Textfield" time="0.198"/>
+    <testcase name="Should be able to hold down the left mouse key on an element" classname="Test Autocomplete Textfield" time="0.139"/>
+    <system-out/>
+  </testsuite>
+</testsuites>

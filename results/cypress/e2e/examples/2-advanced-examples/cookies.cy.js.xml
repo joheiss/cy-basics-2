@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Cypress Tests" tests="7" failures="0" skipped="0" errors="0" timestamp="Thu, 08 May 2025 08:25:03 GMT" time="1.627">
+  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="1.627" timestamp="Thu, 08 May 2025 08:25:02 GMT" file="cypress/e2e/examples/2-advanced-examples/cookies.cy.js">
+    <system-out/>
+  </testsuite>
+  <testsuite name="Cookies" tests="7" failures="0" skipped="0" errors="0" time="1.627" timestamp="Thu, 08 May 2025 08:25:02 GMT" file="cypress/e2e/examples/2-advanced-examples/cookies.cy.js">
+    <testcase name="cy.getCookie() - get a browser cookie" classname="Cookies" time="0.281"/>
+    <testcase name="cy.getCookies() - get browser cookies for the current domain" classname="Cookies" time="0.178"/>
+    <testcase name="cy.getAllCookies() - get all browser cookies" classname="Cookies" time="0.077"/>
+    <testcase name="cy.setCookie() - set a browser cookie" classname="Cookies" time="0.071"/>
+    <testcase name="cy.clearCookie() - clear a browser cookie" classname="Cookies" time="0.157"/>
+    <testcase name="cy.clearCookies() - clear browser cookies for the current domain" classname="Cookies" time="0.141"/>
+    <testcase name="cy.clearAllCookies() - clear all browser cookies" classname="Cookies" time="0.07"/>
+    <system-out/>
+  </testsuite>
+</testsuites>

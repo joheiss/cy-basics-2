@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Cypress Tests" tests="9" failures="0" skipped="0" errors="0" timestamp="Thu, 08 May 2025 08:24:56 GMT" time="4.032">
+  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="4.032" timestamp="Thu, 08 May 2025 08:24:52 GMT" file="cypress/e2e/examples/2-advanced-examples/assertions.cy.js">
+    <system-out/>
+  </testsuite>
+  <testsuite name="Assertions" tests="9" failures="0" skipped="0" errors="0" time="4.032" timestamp="Thu, 08 May 2025 08:24:52 GMT" file="cypress/e2e/examples/2-advanced-examples/assertions.cy.js">
+    <testcase name="Implicit Assertions -- .should() - make an assertion about the current subject" classname="Assertions" time="0.6"/>
+    <testcase name="Implicit Assertions -- .and() - chain multiple assertions together" classname="Assertions" time="0.134"/>
+    <testcase name="Explicit Assertions -- expect - make an assertion about a specified subject" classname="Assertions" time="0.157"/>
+    <testcase name="Explicit Assertions -- pass your own callback function to should()" classname="Assertions" time="0.087"/>
+    <testcase name="Explicit Assertions -- finds element by class name regex" classname="Assertions" time="0.126"/>
+    <testcase name="Explicit Assertions -- can throw any error" classname="Assertions" time="0.096"/>
+    <testcase name="Explicit Assertions -- matches unknown text between two elements" classname="Assertions" time="0.306"/>
+    <testcase name="Explicit Assertions -- assert - assert shape of an object" classname="Assertions" time="0.117"/>
+    <testcase name="Explicit Assertions -- retries the should callback until assertions pass" classname="Assertions" time="1.619"/>
+    <system-out/>
+  </testsuite>
+</testsuites>

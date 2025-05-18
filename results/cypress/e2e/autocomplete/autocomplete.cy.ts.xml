@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Cypress Tests" tests="2" failures="0" skipped="0" errors="0" timestamp="Thu, 08 May 2025 08:23:51 GMT" time="1.965">
+  <testsuite name="Root Suite" tests="0" failures="0" skipped="0" errors="0" time="1.965" timestamp="Thu, 08 May 2025 08:23:49 GMT" file="cypress/e2e/autocomplete/autocomplete.cy.ts">
+    <system-out/>
+  </testsuite>
+  <testsuite name="Test Autocomplete Textfield" tests="2" failures="0" skipped="0" errors="0" time="1.965" timestamp="Thu, 08 May 2025 08:23:49 GMT" file="cypress/e2e/autocomplete/autocomplete.cy.ts">
+    <testcase name="Should navigate to autocomplete page - via link" classname="Test Autocomplete Textfield" time="0.429"/>
+    <testcase name="Should display a valid selection of items" classname="Test Autocomplete Textfield" time="0.861"/>
+    <system-out/>
+  </testsuite>
+</testsuites>
